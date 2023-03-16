@@ -1,0 +1,15 @@
+[serviceweaver]
+name = "pokemon-type"
+binary = "./dist/server"
+env = [
+  "HOST=0.0.0.0",
+  "PORT=21099",
+]
+
+["github.com/berquerant/weaver-pokemon-type/persist/TypeDatabase"]
+Driver = "mysql"
+Source = "root:pass@tcp(127.0.0.1:3306)/pokemon_type"
+
+["github.com/berquerant/weaver-pokemon-type/persist/EffectivityDatabase"]
+Driver = "mysql"
+Source = "root:pass@tcp(127.0.0.1:3306)/pokemon_type"
