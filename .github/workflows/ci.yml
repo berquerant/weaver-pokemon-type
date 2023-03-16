@@ -46,8 +46,8 @@ jobs:
           cache: true
       - name: Install mysql-client
         run: |
-          apt update
-          apt install -y mysql-client
+          sudo apt update
+          sudo apt install -y mysql-client
       - name: Display Go version
         run: go version
       - name: Prepare mysql seed
