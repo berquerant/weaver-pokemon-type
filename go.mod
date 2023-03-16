@@ -3,7 +3,7 @@ module github.com/berquerant/weaver-pokemon-type
 go 1.20
 
 require (
-	github.com/ServiceWeaver/weaver v0.1.3
+	github.com/ServiceWeaver/weaver v0.1.5
 	github.com/caarlos0/env/v7 v7.1.0
 	github.com/go-sql-driver/mysql v1.7.0
 	github.com/google/uuid v1.3.0
