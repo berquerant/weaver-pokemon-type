@@ -8,5 +8,6 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: pass
       MYSQL_DATABASE: pokemon_type
+      MYSQL_ROOT_HOST: '%'
     ports:
       - 3306:3306
