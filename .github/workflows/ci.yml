@@ -44,7 +44,8 @@ jobs:
         uses: actions/setup-go@v4
         with:
           go-version: ${{ matrix.go-version }}
-          cache: true
+          check-latest: true
+          cache-dependency-path: go.sum
       - name: Install mysql-client
         run: |
           sudo apt update
