@@ -3,7 +3,7 @@ module github.com/berquerant/weaver-pokemon-type
 go 1.20
 
 require (
-	github.com/ServiceWeaver/weaver v0.4.0
+	github.com/ServiceWeaver/weaver v0.7.1
 	github.com/caarlos0/env/v7 v7.1.0
 	github.com/go-sql-driver/mysql v1.7.1
 	github.com/google/uuid v1.3.0
@@ -35,7 +35,7 @@ require (
 	github.com/stoewer/go-strcase v1.2.0 // indirect
 	go.opentelemetry.io/otel/exporters/stdout/stdouttrace v1.12.0 // indirect
 	go.opentelemetry.io/otel/sdk v1.12.0 // indirect
-	golang.org/x/exp v0.0.0-20230206171751-46f607a40771 // indirect
+	golang.org/x/exp v0.0.0-20230321023759-10a507213a29 // indirect
 	golang.org/x/mod v0.6.0 // indirect
 	golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4 // indirect
 	golang.org/x/sys v0.4.0 // indirect
