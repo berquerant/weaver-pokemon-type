@@ -6,7 +6,7 @@ require (
 	github.com/ServiceWeaver/weaver v0.4.0
 	github.com/caarlos0/env/v7 v7.1.0
 	github.com/go-sql-driver/mysql v1.7.1
-	github.com/google/uuid v1.3.0
+	github.com/google/uuid v1.3.1
 	github.com/mxschmitt/golang-combinations v1.2.0
 	github.com/stretchr/testify v1.8.4
 	go.opentelemetry.io/otel v1.14.0
